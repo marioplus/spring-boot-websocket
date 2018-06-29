@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <link type="text/css" rel="stylesheet" href="css/chat.css">
+    <script src="js/chat.js"></script>
+</head>
+<body>
+<div id="login-box-bg">
+    <div id="login-box">
+        <input type="text" id="nickname" placeholder="请输入用户名">
+        <button type="button" id="login" onclick="login()">登录</button>
+    </div>
+</div>
+<div id="main">
+    <div id="msg-list">
+    </div>
+    <div id="input-box">
+        <textarea id="msg" placeholder="此处输入消息"></textarea>
+        <button type="button" class="btn-send" onclick="sendMessage()">发送</button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei Mono";
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#login-box-bg {
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+#login-box {
+    background: #777777;
+    width: 220px;
+    height: 28px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    outline: none;
+    border-radius: 5px;
+}
+
+#username {
+    padding-left: 5px;
+    font-size: 12px;
+    border: 1px solid #449d44;
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+    float: left;
+}
+
+#login {
+    float: right;
+}
+
+#main {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: black;
+}
+
+#msg-list {
+    width: 600px;
+    height: 500px;
+    background: #DEF1EC;
+    overflow-y: scroll;
+}
+
+.msg-item {
+    padding: 5px;
+}
+
+.msg-content {
+    color: white;
+    display: inline-table;
+    padding: 5px;
+    margin-left: 5px;
+    background: #46b8da;
+    border-radius: 5px;
+}
+
+.avatar {
+    display: inline-block;
+    background: #449d44;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 50%;
+}
+
+#input-box {
+    width: 600px;
+    height: 200px;
+}
+
+textarea {
+    height: 130px;
+    width: 580px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    border: none;
+    padding: 6px 14px;
+    border-radius: 3px;
+    color: white;
+    outline: none;
+    background: #449d44;
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px rgba(38, 38, 38, 255);
+}
+
+button:active {
+    padding: 5px 13px;
+    color: #449d44;
+    border: 1px solid #449d44;
+    background: white;
+}
+
+.btn-send {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
