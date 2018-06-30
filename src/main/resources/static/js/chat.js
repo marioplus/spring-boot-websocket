@@ -1,4 +1,4 @@
-﻿const ipAdrr = "ws://localhost:8080/websocket";
+﻿const ipAdrr = "ws://localhost:8080/websocket/10";
 let ws;
 let nickname;
 
